@@ -1,4 +1,8 @@
 /* Whole */
+html{
+  scroll-behavior: smooth;
+}
+
 h1{
   font-family: 'Brandon Grotesque';
   font-style: normal;
@@ -124,8 +128,13 @@ button{
   text-align: left;
 }
 
+
 .heroContainer2{
   margin: 0 auto;
+  text-align: center;
+}
+
+.smoothScroll{
   text-align: center;
 }
 
@@ -263,6 +272,10 @@ footer ul li{
   object-fit: cover;
 }
 
+.workImg{
+  margin: 10px;
+}
+
 .item1{
   grid-area: item1;
 }
@@ -312,6 +325,8 @@ footer ul li{
 .viewAll{
   text-align: center;
 }
+
+/* whole again */
 
 
 /* Mobile Responsive Code */
@@ -474,6 +489,7 @@ line-height: 25px;
   line-height: 25px;
   color: #FFFFFF;
 }
+
 
   /*footer*/
   footer {

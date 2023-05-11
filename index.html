@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mod 18 HW</title>
+    <title>Mod 19 HW</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
    
@@ -36,7 +36,7 @@
       <h1>Hi, I'm Cherry!</h1>
       <p>Freelance UX/UI designer who enjoys doing UX research and conducting interviews. I like to be part of a creation process and solve user problems that involves accessibility.</p>
       <p>Talk to me about user behaviour, AR, VR and tea!</p>
-      <button>Download Resume</button>
+      <button class="btn">Download Resume</button>
     </div>
 
     <div class="heroContainer2">
@@ -45,8 +45,13 @@
     </div>
   </section>
 
+  <!--jQuery interaction section-->
+  <section class="smoothScroll">
+    <a class="arrow" href="#anchor1"><p><i class="fa-solid fa-arrow-down fa-bounce fa-xl"></i></p></a>
+  </section>
+
   <!--My UX Skills-->
-  <section class="Skills">
+  <section class="Skills" id="anchor1">
     <h1>My Skills</h1>
     <h3>How I solve a problem</h3>
     
@@ -140,42 +145,42 @@
     <div class="workGrid">
       <!--first work html-->
       <div class="item1">
-        <img src="images/travel app highfi screens.png">
+        <img class="workImg" src="images/travel app highfi screens1.png">
       </div>
 
       <div class="item2">
         <h4>Mobile Prototype</h4>
         <h4>APLanner - Travel App</h4>
         <p>A travel planning app that helps people plan easier after COVID 19. The stress free, faster way to plan your next trip. No more unprepared closed downs and waiting time.</p>
-        <button>Read more</button>
+        <button class="btn">Read more</button>
       </div>
 
       <!--second work html-->
       <div class="item3">
-        <img src="images/BHRO web.png">
+        <img class="workImg" src="images/BHRO web.png">
       </div>
 
       <div class="item4">
         <h4>Web & Mobile Prototype</h4>
         <h4>Redesign of Basset hound Rescue of Ontario</h4>
         <p>Redesign the BHRO website to improve user experience and encourage people to adopt the basset hounds.</p>
-        <button>Read more</button>
+        <button class="btn">Read more</button>
       </div>
 
       <!--third work html-->
       <div class="item5">
-        <img src="images/border agency web.png">
+        <img class="workImg" src="images/border agency web.png">
       </div>
 
       <div class="item6">
         <h4>Web & Mobile Prototype</h4>
         <h4>Redesign of Canada Border Services Agency</h4>
         <p>Redesign the Canada Border Services Agency to improve navigation and user experience.</p>
-        <button>Read more</button>
+        <button class="btn">Read more</button>
       </div>
     </div>
 
-    <div class="viewAll"><button>View all projects</button></div> 
+    <div class="viewAll"><button class="btn">View all projects</button></div> 
 
   </section>
 
@@ -197,17 +202,9 @@
   </footer>
 
 </body>
+
+<script src="https://kit.fontawesome.com/d6b6515798.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/index.js"></script>
 </html>
 
-<!--<!DOCTYPE html> add ! then click on it
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>-->
