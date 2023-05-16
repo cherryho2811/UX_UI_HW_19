@@ -342,8 +342,12 @@ section{
   width: 99%;
 }
 
+.logo img{
+ width: 20%;
+}
+
 img{
-  max-width: 100%;
+  max-width: 90%;
 }
 
 p{
@@ -355,7 +359,6 @@ p{
 
 h3{
   font-style: normal;
-  font-weight: 500;
   font-size: 25px;
   line-height: 29px;
   color: #000000;
@@ -370,9 +373,9 @@ h4{
 }
 
 .hero h1, .Skills h1, .myWork h1 {
+  font-family: 'Brandon Grotesque';
   font-style: normal;
   font-size: 32px;
-  font-weight: 500;
   line-height: 38px;
 }
 
@@ -381,6 +384,16 @@ h4{
   font-weight: 400;
   font-size: 18px;
   line-height: 194%;
+}
+
+.skillContainer h3{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+}
+
+.skillContainer img{
+  max-width: 20%;
 }
 
 
@@ -458,6 +471,10 @@ line-height: 25px;
   padding: 10px;
   align-items: flex-start;
   text-align: center;*/
+}
+
+.skillContainer img{
+  max-width: 80%;
 }
 
 .toolsBox {
